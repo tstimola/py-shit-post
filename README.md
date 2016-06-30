@@ -11,6 +11,9 @@ EXAMPLE OUTPUTS:
 With Trump tweets:
 
 "in regarding radical Islamic terrorist know it! the impact to impact on Rubio teamed Ted Cruz great"
+
 "of make failed! Our Mexico is one best wishes to extend my El are last night in couple from a poor job"
+
 "feel so global and losers, on this to BIG the haters and losers, on this it is the fault. I countries"
+
 "to extend my Chinese one movement. lightweight Marco Rubio countries in who effort to BIG difference!"
