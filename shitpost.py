@@ -1,33 +1,6 @@
 # import random
 import random
 
-# ALPHABETICAL STRING CHECK
-def alphacheck(string_a, string_b, precision = 100, result = False):
-
-    # EMPTY STRING PRECHECK
-    if len(string_a) == 0:
-        if len(string_b) == 0: return result
-        else: result = False ; return result
-    elif len(string_b) == 0:
-        if len(string_a) == 0: return result
-        else: result = True  ; return result
-        
-    # chars to compare
-    char_a = string_a[0];
-    char_b = string_b[0]
-    
-    # compare characters
-    if char_a > char_b: result = True
-    
-    # shorten strings to recurse
-    new_string_a = string_a[1:]
-    new_string_b = string_b[1:]
-    
-    #    RECURSE
-    if precision == 1: return result
-    else: precision -= 1 # RECURSE IT
-    return alphacheck(new_string_a, new_string_b, precision, result)
-
 # ASSOCIATION
 class Association:
     
@@ -62,7 +35,6 @@ class AssociationBank:
 
         # append and sort list
         self.assoc_list.append(Association(root, assoc, 1))
-        self.assoc_list.sort()
         
     # read from a file
     def read(self, read_file):
